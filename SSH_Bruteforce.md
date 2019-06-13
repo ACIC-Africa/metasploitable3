@@ -1,4 +1,4 @@
-# SSH Bruteforce with Hydra
+# SSH Bruteforce with thc-hydra
 
 1. After extracting credentials from the Payroll Application, use the credentials to run a bruteforce attack.
 
