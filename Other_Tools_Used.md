@@ -19,3 +19,10 @@
   ```
   $ binwalk -e 10_of_clubs.wav
   ```
+  5. `docker`: Docker command
+  ```
+  $ docker ps                                               #View running docker containers
+  ```
+  ```
+  $ docker exec -it 9f48895b1e0e bash                       # Access the docker container
+  ```
