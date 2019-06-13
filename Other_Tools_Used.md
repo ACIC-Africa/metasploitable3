@@ -9,3 +9,8 @@
   ```
   find /home -iname "*_of_*"
   ```
+  3. `mount`: Mount ISO
+  
+  ```
+  mount -o loop /home/kylo_ren/.secret_files/my_recordings_do_not_open.iso /media/iso
+  ```
