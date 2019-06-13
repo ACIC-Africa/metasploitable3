@@ -1,12 +1,15 @@
 ## For this tutorial you will need the following tools
-     * Browser (Prefarably Mozilla)
-     * Burpsuite
-     * SQLMap
+* Browser (Prefarably Mozilla)
+* Burpsuite
+* SQLMap
 
 1. Try and login using the following credentials:
          USER:        admin
          PASSWORD:    admin
    RESULTS: The webpage will display your username and no content
+   Inline-style: 
+   ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/step-1.png "STEP 1")
+
 1. Try and login using the following credentials:
          USER:        '
          PASSWORD:    admin         
