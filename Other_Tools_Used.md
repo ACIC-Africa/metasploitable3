@@ -7,7 +7,7 @@
   2. `find`: Find flags
   
   ```
-  find /home -iname "*_of_*"
+  find / -iname "*_of_*"
   ```
   3. `mount`: Mount ISO
   
