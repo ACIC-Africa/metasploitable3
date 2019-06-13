@@ -19,7 +19,7 @@ RESULTS: The webpage will display your username and no content
    RESULTS: 
    
    ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/result-1.png "Result 1")
-1. Try and login using the following credentials:
+2. Try and login using the following credentials:
 
    | Field     | Value    |
    | --------- |:--------:|
