@@ -57,7 +57,7 @@ RESULTS: SQLMap will retrieve the columns on the application tables
    ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/step-5-1.png "STEP 5")
    ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/step-5-2.png "RESULT 5")   
 
-6. <b>Use the fields retrieved to retrieve the user passwords:</b>
+6. <b>Use the column names to retrieve the user credentials:</b>
 
    | Field     | Value                                       |
    | --------- |:-------------------------------------------:|
