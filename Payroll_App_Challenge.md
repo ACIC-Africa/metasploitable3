@@ -25,3 +25,4 @@ RESULTS: The webpage will display your username and no content
 
 RESULTS: The webpage will be blank
    ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/step-2.png "STEP 2")
+   ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/result-2.png "RESULT 2")
