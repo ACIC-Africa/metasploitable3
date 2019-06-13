@@ -12,5 +12,10 @@
   3. `mount`: Mount ISO
   
   ```
-  mount -o loop /home/kylo_ren/.secret_files/my_recordings_do_not_open.iso /media/iso
+  $ mount -o loop /home/kylo_ren/.secret_files/my_recordings_do_not_open.iso /media/iso
+  ```
+  4. `Binwalk`: Analyse binary files for embeded files and executable code
+  
+  ```
+  $ binwalk -e 10_of_clubs.wav
   ```
