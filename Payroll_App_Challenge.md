@@ -27,7 +27,7 @@ RESULTS: The webpage will be blank
    ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/step-2.png "STEP 2")
    ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/result-2.png "RESULT 2")
    
-2. <b>Try and login using the following credentials:</b>
+3. <b>Try and login using the following credentials:</b>
 
    | Field     | Value    |
    | --------- |:--------:|
@@ -37,5 +37,10 @@ RESULTS: The webpage will be blank
 RESULTS: The web page will return all the user content
    ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/step-3.png "STEP 2")
    ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/result-3.png "RESULT 2")
-   ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/step-4-sqlmap.png "STEP 2")
-   ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/result-4-1.png "RESULT 2")
+4. <b>Use SQLMap to extract the database using the following commands:</b>
+
+   ```sqlmap -u http://127.0.0.1:7000/payroll_app.php --data="user=admin&password=admin&s=OK" -p user --method POST```
+
+RESULTS: SQLMap will identify whether the web application is vulnerable to SQL Injection
+   ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/step-4-sqlmap.png "STEP 4")
+   ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/result-4-1.png "RESULT 4")
