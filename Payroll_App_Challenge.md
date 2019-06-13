@@ -31,7 +31,7 @@ RESULTS: The webpage will be blank
 
    | Field     | Value    |
    | --------- |:--------:|
-   | USERNAME  | '        |
+   | USERNAME  | ' or 1;#'|
    | PASSWORD  | admin    |  
 
 RESULTS: The web page will return all the user content
