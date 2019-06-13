@@ -1,10 +1,10 @@
-For this tutorial you will need the following tools<b/>
+<b>For this tutorial you will need the following tools</b>
 
 * Browser (Prefarably Mozilla)
 * Burpsuite
 * SQLMap
 
-1. Try and login using the following credentials:<b/>
+1. <b>Try and login using the following credentials:</b>
 
    | Field     | Value    |
    | --------- |:--------:|
